@@ -149,7 +149,7 @@ const heading = React.createElement(
 );
 ```
 
-- These `{ id: 'header', xyz: 'abc' },`Hello World from React!`` are the props and `Hello World from React!` is children.
+- These `{ id: 'header', xyz: 'abc' },`Hello World from React!``are the props and`Hello World from React!` is children.
 
 - `console.log(heading);` //return object
 - here **heading** is basically react-element and react-element is nothing but normal javascript object.
@@ -185,21 +185,3 @@ const parent = React.createElement('div', { id: 'parent' }, [
   1. `react.development.js`
   2. `react-dom.development.js`
   3. your `app.js`
-
-
-
-# =============Episode_02=============
-
-## pushing code on git hub
-- `git init`
-- creating main as the main branch `git branch -M main`
-- `git add .` adding all files
-- `git commit -m "message"` commiting
-- `git remote add origin URL` adding origin 
-- `git push origin main` pushing code on origin main
-
-
-##  Production Ready Code
-- To make your app ready to go into production you need to do lots of processing in your local.
-- when you start `npx create react app` it create React Scaffold which is already ignited (production ready).
-- But here we are creating our own scaffold.
